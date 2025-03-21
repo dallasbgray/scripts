@@ -248,11 +248,9 @@ Function Rename-DatedImagesParallel {
 
 <#
 .SYNOPSIS
-    Prepends a formatted date to the beginning of image file names
+    Displays relevant battery health information
 .DESCRIPTION
     Only works on a device with a battery
-.EXAMPLE
-    PS C:\> Rename-DatedImages -Verbose -FolderPath C:\Path-To-Photos-Here\photos
 .NOTES
     Author: Someone online, thanks
     Date Added: 12/16/2024
