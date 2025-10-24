@@ -1,0 +1,9 @@
+
+raspberry pi overrides
+https://www.raspberrypi.com/documentation/computers/configuration.html
+
+    /boot/firmware/cmdline.txt
+    - added `video=HDMI-A-2:800x480@60,rotate=180`
+
+    /boot/firmware/config.txt
+    - added `dtoverlay=gpio-shutdown`
